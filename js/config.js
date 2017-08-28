@@ -7,8 +7,8 @@ require.config({
 	},
 	shim:{
 		jqueryUi : ['jquery'],
-		/*randomNum : {
-			exports : '../lib/randomNumber'
-		}*/
+		cookie : {
+			exports : 'Cookie'
+		}
 	}
 })

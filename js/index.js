@@ -1,6 +1,7 @@
 require(['config'],function(){
-	require(['jquery','jqueryUi','num'],function($,num){
+	require(['jquery','num','cookie','jqueryUi'],function($,num,cookie){
 		$('div').draggable();
 		console.log(num);
+		console.log(cookie);
 	})
 })
